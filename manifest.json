@@ -1,0 +1,34 @@
+{
+    "manifest_version": 2,
+    "name": "Video Speed Changer",
+    "version": "1.2",
+    "description": "Extension that allows you to change the playback rate of videos in some platforms.",
+
+    "icons": {
+        "48": "icons/speed-48.png",
+        "96": "icons/speed-96.png"
+    },
+
+    "permissions": [
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "browser_style": true,
+        "default_popup": "popup/choose_speed.html",
+        "default_icon": {
+            "16": "icons/speed-16.png",
+            "32": "icons/speed-32.png"
+        },
+
+        "theme_icons": [{
+            "light": "icons/speed-16-light.png",
+            "dark": "icons/speed-16-dark.png",
+            "size": 16
+        }, {
+            "light": "icons/speed-32-light.png",
+            "dark": "icons/speed-32-dark.png",
+            "size": 32
+        }]
+    }
+}
