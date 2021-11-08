@@ -8,16 +8,29 @@
 
 <body>
   <div class="speed info">Choose video speed</div>
-  <div class="speed choice">0.25</div>
-  <div class="speed choice">0.5</div>
-  <div class="speed choice">0.75</div>
-  <div class="speed choice">1.0</div>
-  <div class="speed choice">1.5</div>
-  <div class="speed choice">2.0</div>
-  <div class="speed choice">4.0</div>
-  <div class="speed choice">10.0</div>
+  <div id="sp_shown">
+    <div class="speed choice">0.25</div>
+    <div class="speed choice">0.5</div>
+    <div class="speed choice">0.75</div>
+    <div class="speed choice">1.0</div>
+    <div class="speed choice">1.5</div>
+    <div class="speed choice">2.0</div>
+    <div class="speed choice">4.0</div>
+    <div class="speed choice">10.0</div>
+  </div>
   <!-- Have to work on custom speed through an alert or something that prompts the user for speed through js file or code
-  <a href="custom_speed.html"><div class="speed custom">Custom</div></a>-->
+       Implemented more playback rates but have to still work on getting a custom one to work somehow too hard :( -->
+  <div id="sp_hid">
+    <div class="speed choice">15.0</div>
+    <div class="speed choice">20.0</div>
+    <div class="speed choice">25.0</div>
+    <div class="speed choice">30.0</div>
+    <div class="speed choice">35.0</div>
+    <div class="speed choice">40.0</div>
+    <div class="speed choice">45.0</div>
+    <div class="speed choice">50.0</div>
+  </div>
+  <div class="speed custom" id="btnMore">More</div>
   <script src="choose_speed.js"></script>
 </body>
 
