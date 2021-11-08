@@ -1,6 +1,6 @@
 {
     "addons": {
-      "{abcd1234-1abc-1234-12ab-abcdef123456}": {
+      "{ae1e8f3a-ab44-4e69-bd17-fc86595f3975}": {
         "updates": [
           {
             "version": "1.0",
@@ -13,6 +13,10 @@
           {
             "version": "1.2",
             "update_link": "https://github.com/norah486/video-speed-changer/releases/download/v1.2/video-speed-changer-1.2.xpi"
+          },
+          {
+            "version": "1.3",
+            "update_link": "https://github.com/norah486/video-speed-changer/releases/download/v1.3/video-speed-changer-1.3.xpi"
           }
         ]
       }
