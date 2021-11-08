@@ -1,4 +1,16 @@
 /* Regardless of theme */
+html, body {
+    width: 250px;
+    scrollbar-width: none;
+}
+
+.speed {
+    width: 100%;
+    padding: 4px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
 .info {
     cursor: default;
 }
@@ -7,18 +19,17 @@
     cursor: pointer;
 }
 
+#sp_hid {
+    display: none;
+}
+
 /* Light theme */
 @media (prefers-color-scheme: light) {
     html, body {
-        width: 250px;
         background-color: #d8dee9;
     }
 
     .speed {
-        width: 100%;
-        padding: 4px;
-        font-size: 1.5em;
-        text-align: center;
         color: black;
     }
     
@@ -30,15 +41,10 @@
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
     html, body {
-        width: 250px;
         background-color: #3b4252;
     }
 
     .speed {
-        width: 100%;
-        padding: 4px;
-        font-size: 1.5em;
-        text-align: center;
         color: whitesmoke;
     }
         
